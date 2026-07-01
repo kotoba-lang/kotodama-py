@@ -27,7 +27,7 @@ Environment=LOCAL_LLM_PROVIDER=ollama
 Environment=LOCAL_LLM_ENDPOINT=http://127.0.0.1:11434/api/chat
 Environment=LOCAL_LLM_MODEL=gemma3:4b
 # uv-managed venv path; replace if you use poetry / pip / pipx.
-ExecStart=/home/YOUR_USERNAME/etzhayyim-root/40-engine/kotoba/crates/kotoba-kotodama/py/.venv/bin/python -m kotodama.projects.ameno
+ExecStart=/home/YOUR_USERNAME/etzhayyim-root/kotoba-lang/kotodama-py/.venv/bin/python -m kotodama.projects.ameno
 Restart=on-failure
 RestartSec=5s
 StandardOutput=journal

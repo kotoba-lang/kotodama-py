@@ -26,7 +26,7 @@ projects/ameno/
 
 ## Requirements
 
-- `kotodama` installed (this repo's `20-actors/kotoba-kotodama/py` package)
+- `kotodama` installed (this repo's `kotoba-lang/kotodama-py` package)
 - Ollama running on localhost:11434
 - Pull a model:
 
@@ -38,7 +38,7 @@ projects/ameno/
 
 ```sh
 # from repo root
-cd 20-actors/kotoba-kotodama/py
+cd kotoba-lang/kotodama-py
 uv sync                  # or: pip install -e .
 python -m kotodama.projects.ameno
 ```

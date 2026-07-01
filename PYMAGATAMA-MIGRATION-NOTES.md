@@ -66,7 +66,7 @@ Verdict taxonomy (mirrors lexicon port rules):
 2. Apply REDIRECT changes (env URL swap + comment updates) — single commit
 3. Apply REIMPLEMENT changes (maps_sentinel handled separately per ADR-2605215100; zeebe_worker_main ComfyUI dispatch needs new code path)
 4. VENDOR-ONLY files: add module-level guard `if os.environ.get("ETZHAYYIM_BUILD"): raise ImportError("vendor-only")`
-5. Run pytest 20-actors/kotoba-kotodama/py/tests/ → all green
+5. Run pytest kotoba-lang/kotodama-py/tests/ → all green
 6. Smoke deploy on one Mac mini (dan)
 7. Soak 24h
 8. Roll out to remaining nodes
