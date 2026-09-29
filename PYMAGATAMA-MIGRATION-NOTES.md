@@ -1,6 +1,6 @@
 <!-- ⚠️  STEP 8 CUTOVER MATERIAL — DO NOT RENAME IN ISOLATION ⚠️  -->
 <!--
-  This file is part of the Step 8 cutover sequence (CLAUDE.md status table).
+  This file is part of the Step 8 cutover sequence (AGENTS.md status table).
   Renaming or moving it without updating deps.toml [[migrations]] and
   the ADR reference in ADR-2605215200 will break the cutover runbook.
 -->
